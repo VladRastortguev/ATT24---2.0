@@ -1,0 +1,47 @@
+.VR_ComponentTitle_TehnicalTask {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+    margin: 15px 0;
+
+    color: #484d54;
+
+    line-height: 1.2;
+}
+
+.VR_decotaionBlock_TehnicalTask h5 {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+
+    color: #484d54;
+}
+
+.VR_decotaionBlock_TehnicalTask input,
+.VR_decotaionBlock_TehnicalTask textarea {
+    position: relative;
+
+    width: 100%;
+    padding: 10px 0 10px 10px;
+
+    border: 1px solid #eee;
+    border-radius: 5px;
+
+    font-family: 'Poppins', sans-serif;
+    color: #484d54;
+}
+
+.VR_decotaionBlock_TehnicalTask input:hover,
+.VR_decotaionBlock_TehnicalTask textarea:hover {
+    outline: 1px solid #b8b6b6;
+}
+
+.VR_decotaionBlock_TehnicalTask input:focus,
+.VR_decotaionBlock_TehnicalTask textarea:focus {
+    outline: 2px solid #007aff;
+    color: #161718;
+}
+
+.VR_decotaionBlock_TehnicalTask {
+    padding-bottom: 30px;
+}

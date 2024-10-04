@@ -1,0 +1,40 @@
+.VR_Header_Header {
+    background-color: rgba(255, 255, 255, 0.93);
+
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.40);
+}
+
+.VR_Container_Header {
+    width: 95vw;
+
+    margin: auto;
+}
+
+.VR_Container_Header ul {
+    list-style-type: none;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 0;
+    margin: 0;
+}
+
+.VR_logo_Header img {
+    width: 50px;
+    height: 50px;
+}
+
+.VR_GetOut_Header {
+    color: #007aff;
+    outline: #007aff;
+    border: 1px solid #007aff;
+}
+
+.VR_GetOut_Header:hover,
+    .VR_GetOut_Header:focus {
+        outline: #007aff;
+        outline: #007aff;
+}

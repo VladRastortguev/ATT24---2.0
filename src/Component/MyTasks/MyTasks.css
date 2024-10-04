@@ -1,0 +1,404 @@
+.VR_Container_MyTasks {
+    width: 65vw;
+}
+
+.VR_OnLoadContainer_MyTasks {
+    width: 65vw;
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.40);
+
+}
+
+.VR_PreContainer_MyTasks {
+    width: 93%;
+}
+
+.VR_titleBlock_MyTasks {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.VR_SettingsContainer_MyTasks {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+
+    /* border: 1px solid black; */
+}
+
+.VR_SettingEl_MyTasks {
+    font-size: 50px !important;
+}
+
+.VR_SettingEl_MyTasks:hover {
+    cursor: pointer;
+}
+
+
+.task-header {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.task-header h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.VR_taskList_MyTaks {
+    list-style: none;
+    padding: 0;
+}
+
+.VR_TaskItem_MyTasks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9fbfc;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.VR_TaskItem_MyTasks:hover {
+    background-color: #eef2f7;
+    cursor: pointer;
+}
+
+.VR_TaskContent_MyTasks h4 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+    color: #484d54;
+}
+
+.VR_TaskContent_MyTasks p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    
+    margin-top: 5px;
+    
+    color: #484d54;
+}
+
+.VR_TaskStatus_MyTasks {
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100px;
+}
+
+.VR_TaskStatus_MyTasks span {
+    display: block;
+}
+
+.VR_Pending_TaskStatus {
+    background-color: #ffe5e5;
+    color: #ff5a5a;
+}
+
+.in-progress {
+    background-color: #ffeab6;
+    color: #ff9f00;
+}
+
+.completed {
+    background-color: #c8f7c5;
+    color: #2d8f2e;
+}
+
+.VR_ModalSettingBlock_MyTasks {
+    position: fixed;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 72%;
+
+    background-color: #fff;
+
+    transition: 1s;
+
+    /* z-index: 999999; */
+}
+
+.VR_RightSettingBlock_MyTasks {
+    transition: 1s;
+
+    position: fixed;
+
+    top: 0;
+    right: 28%;
+    bottom: 0;
+    left: 0;
+
+    background-color: #000;
+    opacity: 50%;
+}
+
+.VR_SettingContainer_MyTasks {
+    width: 90%;
+    margin: auto;
+}
+
+.VR_SettingBlockTitle_MyTasks {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px 0;
+    padding-bottom: 10px;
+
+    border-bottom: 2px solid #eee;
+}
+
+.VR_SettingBlockTitle_MyTasks h3 {
+    color: #484d54;
+    font-family: 'Poppins', sans-serif;
+}
+
+.VR_ICreatorBlock_MyTasks {
+    max-width: 43%;
+    
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.VR_ICreatorBlock_MyTasks p {
+    color: #484d54;
+
+    font-family: 'Poppins', sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+.VR_FilterForName_MyTasks {
+    padding-bottom: 20px;
+
+    border-bottom: 2px solid #eee;
+
+    margin-bottom: 20px;
+}
+
+.VR_FilterForName_MyTasks h5 {
+    font-family: 'Poppins', sans-serif;
+    color: #484d54;
+}
+
+.VR_FilterForUserView_MyTasks {
+    padding-bottom: 20px;
+
+    border-bottom: 2px solid #eee;
+
+    margin-bottom: 20px;
+}
+
+.VR_FilterForUserView_MyTasks h5 {
+    margin-bottom: 20px;
+
+    font-family: 'Poppins';
+    color: #484d54;
+}
+
+.VR_ViewFilterContainer_MyTasks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.VR_ChangeListView_MyTasks,
+.VR_ChangeKanbanView_MyTasks,
+.VR_ChangeListViewAcive_MyTasks,
+.VR_ChangeKanbanViewActive_MyTasks {
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.VR_ChangeListView_MyTasks svg,
+.VR_ChangeKanbanView_MyTasks svg {
+    font-size: 100px;
+
+    color: #484d54;
+}
+
+.VR_ChangeListView_MyTasks svg:hover,
+.VR_ChangeKanbanView_MyTasks svg:hover,
+.VR_ChangeListViewAcive_MyTasks svg:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+.VR_ChangeListViewAcive_MyTasks svg,
+.VR_ChangeKanbanViewActive_MyTasks svg{
+    font-size: 100px;
+
+    color: #000;
+}
+
+
+/* .VR_KanbanView_MyTasks {
+    border: 4px solid red;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.VR_Board_MyTasks {
+    width: 30%;
+
+    border: 2px solid black;
+
+    border-radius: 5px;
+}
+
+.VR_BoardTitle_MyTasks {
+    display: flex;
+
+    justify-content: center;
+
+    border: 2px solid green;
+}
+
+.VR_KanbanItem_MyTasks {
+    border: 1px solid blue;
+
+    padding: 10px 20px;
+} */
+
+.VR_KanbanView_MyTasks {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+
+    margin-left: -28px;
+}
+
+.VR_Board_MyTasks {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    min-width: 33%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    max-height: 500px;
+
+    overflow-y: scroll;
+    /* scrollbar-width: thin;
+    scrollbar-color: #007bff #f0f0f5; */
+}
+
+.VR_Board_MyTasks::-webkit-scrollbar {
+    background-color: #fff;
+    width: 7px;
+}
+
+.VR_Board_MyTasks::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.VR_Board_MyTasks:hover::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+}
+
+.VR_BoardTitle_MyTasks {
+    font-size: 18px;
+    font-weight: 600;
+    color: #484d54;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.VR_KanbanItem_MyTasks {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.VR_KanbanItem_MyTasks:hover {
+    background-color: #f0f0f5;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.15);
+}
+
+.VR_KanbanItem_MyTasks:active {
+    box-shadow: none;
+}
+
+.VR_KanbanItem_MyTasks p {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #484d54;
+}
+
+.VR_Board_MyTasks .VR_BoardTitle_MyTasks::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+    margin: 8px auto 0;
+    border-radius: 10px;
+}
+
+.VR_Board_MyTasks {
+    border-top: 5px solid #007bff;
+}
+
+.VR_Container_MyTasks {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f7f7f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.VR_TitleBlock_MyTasks h3 {
+    font-weight: 600;
+    color: #007bff;
+}
+
+.VR_SettingsContainer_MyTasks {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.VR_SettingsContainer_MyTasks:hover .VR_SettingEl_MyTasks {
+    color: #007bff;
+    transform: rotate(15deg);
+    transition: transform 0.3s ease;
+}
+
+.VR_SettingEl_MyTasks {
+    font-size: 20px;
+    transition: color 0.3s, transform 0.3s;
+}

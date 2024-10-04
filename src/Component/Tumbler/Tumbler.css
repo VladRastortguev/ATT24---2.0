@@ -1,0 +1,53 @@
+.VR_Container_Tumbler {
+    display: flex;
+    
+    flex-direction: column;
+    
+    width: 20vw;
+    height: 27.5vh;
+    
+    /* background-color: red; */
+
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.40);
+
+    margin: 25px 0 0 50px;
+}
+
+.VR_TumblerList_Tumbler {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.VR_TumblerList_Tumbler li {
+    padding: 5px 10px;
+
+    border: 1px solid #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.VR_TumblerList_Tumbler li:hover {
+    cursor: pointer;
+}
+
+.VR_ActiveTumblerLi_Tumbler {
+    border: 1px solid #007aff !important;
+    border-bottom: 1px solid #007aff !important;
+
+    border-radius: 5px;
+}
+
+.VR_ActiveTumblerLi_Tumbler:hover {
+    border: 1px solid #007aff;
+    border-radius: 5px;
+    
+    background-color: #007aff;
+    color: #fff;
+
+    border: none;    
+}
+
+.VR_TumblerList_Tumbler li {
+    font-family: 'Poppins', sans-serif;
+}

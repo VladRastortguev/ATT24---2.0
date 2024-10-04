@@ -1,0 +1,213 @@
+.VR_Container_LastTask {
+    display: flex;
+    flex-direction: column;
+    
+    width: 20vw;
+    height: 54.5vh;
+
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.40);
+
+    margin: 25px 0 0 50px;
+
+    /* position: relative; */
+
+    /* transition: 1s; */
+}
+
+.VR_TitleBlock_LastTask {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 60px;
+
+    border-bottom: 1px solid #eee;
+}
+
+.VR_TitleBlock_LastTask h4 {
+    margin: 0;
+    padding: 0 0 0 30px;    
+
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+    color: #484d54;
+
+    text-transform: capitalize;
+}
+
+.VR_showClueList_LastTask {
+    position: absolute;
+
+    background-color: #fff;
+    border: 1px solid #eee;
+
+    left: 20%;
+
+    list-style-type: none;
+
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    
+    /* transition: 0.3s; */
+}
+
+.VR_showClueList0_LastTask,
+.VR_showClueList01_LastTask,
+.VR_showClueList02_LastTask,
+.VR_showClueList03_LastTask,
+.VR_showClueList04_LastTask,
+.VR_showClueList05_LastTask,
+.VR_showClueList0 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.VR_showClueList1_LastTask {
+    opacity: 1;
+    visibility: visible;
+    top: 11%;
+}
+
+.VR_showClueList01_LastTask {
+    top: 11%;
+}
+
+.VR_showClueList2_LastTask,
+.VR_showClueList02_LastTask {
+    top: 31.5%;
+}
+
+.VR_showClueList3_LastTask,
+.VR_showClueList03_LastTask {
+    top: 51%;
+} 
+
+.VR_showClueList4_LastTask,
+.VR_showClueList04_LastTask {
+    top: 28.5%;
+} 
+
+.VR_showClueList5_LastTask,
+.VR_showClueList05_LastTask {
+    top: 48%;
+}
+
+.VR_clueIconList_LastTask li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.VR_clueIconList_LastTask p {
+    margin: 0;
+    padding: 3px 10px 0 0;
+    
+    transform: translateY(-3px);
+}
+
+.VR_clueIconList_LastTask {
+    margin: 0;
+    padding: 15px 15px;
+}
+
+.VR_TaskList_LastTask {
+    list-style-type: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+.VR_TaskList_LastTask ul {
+    list-style-type: none;
+
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.VR_TaskBlock_LastTask {
+    height: 100%;
+ 
+    display: flex;
+    flex-direction: column;
+
+    /* overflow-y: scroll; */
+
+    position: relative;
+}
+
+/* .VR_TaskBlock_LastTask:hover {
+    overflow-y: scroll;
+}
+
+.VR_TaskBlock_LastTask::-webkit-scrollbar {
+    width: 7px;
+    background-color: #fff;
+}
+
+.VR_TaskBlock_LastTask::-webkit-scrollbar-thumb {
+    background-color: gainsboro;
+
+    border-radius: 20px;
+} */
+
+.VR_ContainerOnLoad_LastTask {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.VR_TempList_LastTask h4 {
+    font-size: 16px;
+
+    padding: 0 0 0 0;
+    margin: 0 0 5px 0;
+}
+
+.VR_InitExec_LastTask li {
+    font-size: 12px;
+}
+
+.VR_InitExec_LastTask {
+    padding-bottom: 5px;
+}
+
+.VR_ListContainer_LastTask {
+    width: 85%;
+    margin: auto;
+}
+
+.VR_HeadList_LastTask {
+    padding: 10px 0 0 0;
+}
+
+.VR_HeadList_LastTask:hover {
+    transition: 1s;
+    background: whitesmoke;
+}
+
+.VR_TempList_LastTask {
+    border-bottom: 1px solid #eee;
+    /* margin-bottom: 10px; */
+
+    position: relative;
+
+    /* margin-bottom: 5px; */
+}
+
+.VR_TempList_LastTask:hover {
+    cursor: pointer;
+    /* background: #eee; */
+}
+
+.VR_statusIcon_LastTask {
+    width: 20%;
+
+    position: absolute;
+
+    right: 0;
+    top: 50%;
+
+    transform: translateY(-50%);
+}

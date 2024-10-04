@@ -1,0 +1,541 @@
+.VR_AllBlock_Loginpage {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.VR_AllBlock_Loginpage_dark {
+    background: #181D27;
+}
+
+.VR_BlueTriangle_Loginpage {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 0;
+    height: 0;  
+    border-style: solid;
+    border-width: 970px 1307px 0 0;
+    border-color: #007aff transparent transparent transparent;
+
+    position: fixed;
+
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    z-index: 0;
+}
+
+.VR_LoginBlock_Loginpage {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 345px;
+    height: 361px;
+
+    background: #fff;
+
+    border: 1px solid #484d54;
+
+    border-radius: 10px;
+
+    z-index: 100;
+}
+
+.VR_LoginBlock_Loginpage_dark {
+    background-color: #181d27;
+}
+
+.VR_CardLoginItem_Loginpage {
+    width: 87%;
+    height: 87%;
+
+    /* border: 1px solid black; */
+}
+
+.VR_LoginBlock_Loginpage h4 {
+    font-family: 'Poppins', sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 800;
+    /* font-style: normal; */
+
+    letter-spacing: 0.03rem;
+
+    font-size: 20px;
+    color: #484d54;
+
+    text-align: center;
+
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.VR_CardLoginItem_Loginpage_h4_dark {
+    color: #ced2e9 !important;
+}
+
+.VR_EmailBlock_Loginpage,
+    .VR_PasswordBlock_Loginpage,
+    .VR_GoPasswordNameInput_LoginPage,
+    .VR_GoPasswordEmailInput_LoginPage,
+    .VR_GoPasswordPasswordInput_LoginPage,
+    .VR_GoPasswordAcceessPassword_LoginPage {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 0 0 25px 0;
+
+    position: relative;
+}
+
+.VR_PasswordBlock_Loginpage {
+    padding: 0 0 27px 0;
+}
+
+.VR_EmailBlock_Loginpage label,
+    .VR_PasswordBlock_Loginpage label,
+    .VR_GoPasswordNameInput_LoginPage h6,
+    .VR_GoPasswordEmailInput_LoginPage h6,
+    .VR_GoPasswordPasswordInput_LoginPage h6,
+    .VR_GoPasswordAcceessPassword_LoginPage h6 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+
+    margin-bottom: 6px;
+    color: #999;
+}
+
+.VR_EmailBlock_Loginpage input,
+    .VR_PasswordBlock_Loginpage input,
+    .VR_GoPasswordNameInput_LoginPage input,
+    .VR_GoPasswordEmailInput_LoginPage input,
+    .VR_GoPasswordPasswordInput_LoginPage input,
+    .VR_GoPasswordAcceessPassword_LoginPage input{
+
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    color: #999;
+    background: #fff;
+
+    border: 1px solid #eee ;
+    border-radius: 5px;
+
+    padding: 8px 15px;
+}
+
+.VR_EmailBlock_Loginpage_input_dark,
+    .VR_PasswordBlock_Loginpage_input_dark {
+        background-color: #181d27 !important;
+        /* border: none; */
+        /* outline: none; */
+
+
+        border: 1px solid #999 !important;
+}
+
+.VR_EmailBlock_Loginpage input:focus,
+    .VR_PasswordBlock_Loginpage input:focus,
+    .VR_GoPasswordNameInput_LoginPage input:focus,
+    .VR_GoPasswordEmailInput_LoginPage input:focus,
+    .VR_GoPasswordPasswordInput_LoginPage input:focus,
+    .VR_GoPasswordAcceessPassword_LoginPage input:focus {
+    outline: 2px solid #007aff;
+
+    /* border: 1px solid #007aff; */
+}
+
+.VR_GoPasswordFormContainer_LoginPage {
+    width: 90%;
+    height: 85%;
+
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.VR_GoPasswordBtnSend_LoginPage {
+    position: fixed;
+
+    bottom: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+.VR_GoPasswordInputBlock {
+    margin-top: 7px;
+}
+
+.VR_EyeIcon_LoginPage {
+    position: absolute;
+
+    top: 32.5%;
+    right: 3%;
+
+    color: #999;
+}
+
+.VR_EyeIcon_LoginPage:hover {
+    cursor: pointer;
+}
+
+.VR_ButtonBlock_LoginPage,
+.VR_GoPasswordBtnSend_LoginPage {
+    display: flex;
+
+    /* flex-direction: column; */
+
+    justify-content: center;
+
+    padding-bottom: 25px;
+}
+
+.VR_ButtonBlock_LoginPage button,
+.VR_GoPasswordBtnSend_LoginPage button {
+    padding: 5px 30px;
+
+    font-size: 14px;
+
+    color: #007aff;
+    outline: #007aff;
+    border: 1px solid #007aff;
+}
+
+.VR_ButtonBlock_LoginPage button:focus,
+    .VR_ButtonBlock_LoginPage:hover,
+    .VR_GoPasswordBtnSend_LoginPage button:focus,
+    .VR_GoPasswordBtnSend_LoginPage:hover {
+
+    color: #007aff;
+    /* background-color: #007aff; */
+    outline: #007aff;
+    /* border: 1px solid #007aff;     */
+}
+
+.VR_RemoteSingUp_LoginPage {
+    display: flex;
+
+    justify-content: center;
+}
+
+.VR_RemoteSingUp_LoginPage p {
+    color: #999;
+}
+
+.VR_RemoteSingUp_LoginPage p,
+    .VR_RemoteSingUp_LoginPage a {
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+    margin-bottom: 0;
+}
+
+.VR_RemoteSingUp_LoginPage a {
+    opacity: 80%;
+}
+
+.VR_GoPassword_LoginPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.VR_GoPassword_LoginPage a {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
+    color: #007aff !important;
+    text-decoration: underline !important;
+}
+
+.VR_GoPassword_LoginPage a:hover {
+    cursor: pointer;
+}
+
+.VR_GoPasswordDarkBlock_LoginPage {
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    background: #000;
+    opacity: 80%;
+
+    z-index: 20;
+}
+
+.VR_GoPasswordWhiteBlock_LoginPage {
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    width: 22.5vw;
+    height: 45vh;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    background-color: #fff;
+
+    z-index: 25;
+
+    transform: translate(-50%, -50%);
+}
+
+.VR_GoPasswordTitleBlock_LoginPage {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    width: 95%;
+    margin: 10px auto;
+}
+
+.VR_GoPasswordTitleBlock_LoginPage h5 {
+    margin: 0;
+    padding: 0;
+
+    color: #484d54;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.VR_GoPasswordTitleBlock_LoginPage svg {
+    font-size: 25px;
+}
+
+.VR_GoPasswordTitleBlock_LoginPage svg:hover {
+    cursor: pointer;
+}
+
+
+.VR_SettingBlock_LoginPage {
+    position: fixed;
+
+    width: 40px;
+    height: 40px;
+
+    right: 3px;
+    top: 50%;
+
+    transform: translate(0, -100%);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+
+    border: 3px solid #484d54;
+
+    border-radius: 5px;
+}
+
+.VR_SettingBlock_LoginPage:hover {
+    cursor: pointer;
+}
+
+.VR_Gear_LoginPage {
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+.VR_ShowSettingBlock_LoginPage {
+    
+
+    /* display: flex; */
+
+    position: fixed;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 80%;
+
+    background-color: #fff;
+    opacity: 100%;
+
+    z-index: 9999;
+}
+
+.VR_RightSettingBlock {   
+    transition: 1s;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 20%;
+
+    background: #000;
+    opacity: 50%;
+
+    z-index: 9997;       
+}
+
+.VR_HeaderCloseBlock_LoginPage {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #999;
+}
+
+.VR_HeaderCloseBlock_LoginPage h4 {
+    padding: 0 0 0 10px;
+    margin: 20px 0 15px 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+
+    color: #484d54;
+}
+
+.VR_HeaderCloseBlock_LoginPage button {
+    border: none;
+    background: none;
+    padding: 0 10px 0 10px;
+    margin: 0;
+}
+
+.VR_Close_LoginPage {
+    padding: 0 0 0 0;
+    margin: 20px 0 20px;
+
+    color: red;
+}
+
+.VR_MainSettingsBlock_LoginPage {
+    width: 100%;
+
+    /* background: blue; */
+
+    overflow-y: scroll;
+}
+
+.VR_ChangeLanguage_LoginPage {
+    margin: 0 0 0 10px;
+    padding: 0 0 20px 0;
+
+    border-bottom: 1px solid #484d54;
+}
+
+.VR_ChangeLanguage_LoginPage h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #484d54;
+
+    margin-top: 10px;
+}
+
+.VR_ChangeLanguage_LoginPage input {
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.VR_ChangeLanguage_LoginPage label {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
+    color: #484d54;
+}
+
+.VR_HeaderChangeTheme_LoginPage {
+    display: flex;
+
+    justify-content: space-around;
+
+    margin-top: 20px;
+
+    position: relative;
+}
+
+.VR_HeaderChangeTheme_LoginPage img {
+    width: 120px;
+    padding: 5px;
+}
+
+.VR_WhiteTheme,
+    .VR_DarkTheme {
+        border: 1px solid #eee;
+        border-radius: 5px;
+    }
+
+.VR_WhiteTheme:hover,
+    .VR_DarkTheme:hover {
+        cursor: pointer;
+    }
+
+.VR_ActiveBlock {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+
+    border: 1px solid #007aff;
+    border-radius: 10px;
+
+    background-color: #007aff;
+
+    position: absolute;
+}
+
+.VR_DoneIcon_LoginPage {
+    color: white;
+}
+
+.VR_ActiveBlock_White {
+    top: 7%;
+    left: 34%;
+}
+
+.VR_ActiveBlock_Dark {
+    top: 7%;
+    right: 7%;
+}

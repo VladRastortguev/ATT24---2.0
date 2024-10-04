@@ -1,0 +1,114 @@
+.VR_Container_SideBar {
+    display: flex;
+    flex-direction: column;
+
+    width: 20vw;
+    height: 85vh;
+
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.40);
+
+    margin-top: 25px;
+}
+
+.VR_TitelBlock_SideBar {
+    display: flex;
+
+    align-items: center;
+    
+    width: 100%;
+
+    height: 60px;
+
+    border-bottom: 1px solid #eee;
+}
+
+.VR_TitelBlock_SideBar h4 {
+    margin: 0;
+    padding: 0 0 0 30px;
+
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+    color: #484d54;
+
+    text-transform: capitalize;
+}
+
+.VR_SectionList_SideBar {
+    display: flex;
+
+    flex-direction: column;
+
+    height: 100%;
+
+    overflow-y: hidden;
+}
+
+.VR_SectionList_SideBar:hover {
+    overflow-y: scroll;
+
+    /* scrollbar-width: thin; */
+}
+
+.VR_SectionList_SideBar::-webkit-scrollbar {
+    width: 7px;
+    background-color: #fff;
+    /* background-color: #fff; */
+}
+
+.VR_SectionList_SideBar::-webkit-scrollbar-thumb {
+    background-color: gainsboro;
+
+    border-radius: 20px;
+}
+
+/* .VR_SectionList_SideBar::-webkit-scrollbar-track {
+    border-radius: 15px;
+    background: orange;
+} */
+
+/* .VR_SectionList_SideBar::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+} */
+
+/* .VR_SectionList_SideBar::-webkit-scrollbar {
+    width: 20px;
+} */
+
+.VR_SectionList_SideBar ul {
+    display: flex;
+
+    flex-direction: column;
+
+    list-style-type: none;
+
+    margin-top: 20px;
+}
+
+.VR_SectionList_SideBar li {
+    display: flex;
+
+    align-items: center;
+    padding: 2px 0;
+    /* justify-content: space-between; */
+
+    color: #485568;
+    font-size: 17px;
+    font-weight: 400;
+
+    text-transform: capitalize;
+    line-height: 18px;
+
+    padding-bottom: 20px;
+}
+
+.VR_SectionList_SideBar svg {
+    margin-right: 10px;
+
+    font-size: 19px !important;
+}
+
+.VR_SectionList_SideBar a:hover {
+    cursor: pointer;
+}

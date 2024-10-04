@@ -1,0 +1,156 @@
+/* .VR_SmallContainer_AccessBlock {
+    width: 90%;
+    height: 100%;
+
+    margin: auto;
+
+    overflow: hidden;
+} */
+
+.VR_ComponentTitle_AccessBlock {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+    margin: 15px 0;
+
+    color: #484d54;
+
+    line-height: 1.2;
+}
+
+.VR_DecorationBlock_CreateTaskPodComponent h5 {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+
+    color: #484d54;
+}
+
+.VR_DecorationBlock_CreateTaskPodComponent input, 
+.VR_DecorationBlock_CreateTaskPodComponent textarea {
+    position: relative;
+
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    
+    border: 1px solid #eee;
+    border-radius: 5px;
+
+    font-family: 'Poppins', sans-serif;
+
+    color: #484d54;
+}
+
+.VR_DecorationBlock_CreateTaskPodComponent input:hover,
+.VR_DecorationBlock_CreateTaskPodComponent textarea:hover {
+    outline: 1px solid #b8b6b6;
+}
+
+.VR_DecorationBlock_CreateTaskPodComponent input:focus,
+.VR_DecorationBlock_CreateTaskPodComponent textarea:focus {
+    outline: 2px solid #007aff;
+    color: #161718;
+}
+
+.VR_DecorationBlock_CreateTaskPodComponent {
+    padding-bottom: 30px;
+}
+
+.VR_SelectBlock_CreateTask {
+    position: relative;
+
+    width: 100%;
+
+    border: 1px solid #eee;
+    border-radius: 5px;    
+}
+
+.VR_HeaderSelect_CreateTask {
+    height: 40px;
+
+    padding: 0 15px;
+
+    position: relative;
+
+    text-align: left;
+}
+
+.VR_FilterSelect_CreateTask {
+    height: 100%;
+
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.VR_FilterSelect_CreateTask p {
+    margin: 0;
+}
+
+.VR_FilterSelect_CreateTask p:first-child {
+    font-family: 'Poppins', sans-serif;
+}
+
+.VR_Filters_CreateTask {
+    position: absolute;
+
+    top: 3rem;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+
+    background-color: #fff;
+
+    border: 1px solid #eee;
+    border-radius: 10px;
+
+    z-index: 10;
+
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.VR_ShowFilters_CreateTask,
+.VR_unShowFilters_CreateTask {
+    transition: opacity 0.15s ease-in-out, height 0.15s ease-in-out;
+}
+
+.VR_ShowFilters_CreateTask {
+    opacity: 1;
+    height: auto;
+}
+
+.VR_ShowFilters_CreateTask div {
+    opacity: 1;
+    height: auto;
+}
+
+.VR_unShowFilters_CreateTask {
+    opacity: 0;
+    height: -1px;
+}
+
+.VR_unShowFilters_CreateTask div {
+    opacity: 0;
+    height: 0;
+    padding: 0;
+}
+
+.VR_Filter_CreateTask {
+    padding: 0.5rem;
+
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.VR_Filter_CreateTask:hover {
+    cursor: pointer;
+
+    background-color: #faf7f7;
+
+    color: #5f6af5;
+}

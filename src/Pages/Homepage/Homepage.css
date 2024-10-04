@@ -1,0 +1,12 @@
+.VR_Container_Homepage {
+    max-width: 85%;
+    margin: auto;
+
+    display: flex;
+}
+
+.VR_LastTaskTumbler_Homepage {
+    display: flex;
+
+    flex-direction: column;
+}

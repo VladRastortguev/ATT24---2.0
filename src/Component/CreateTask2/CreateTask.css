@@ -1,0 +1,126 @@
+.VR_Container_CreateTask {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 42.5vw;
+    height: 85vh;
+
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.40);
+
+    /* padding-right: 8px; */
+
+    margin: 25px 0 0 50px;
+
+    overflow: auto;
+
+    position: relative;
+}
+
+.VR_SmallContainer_CreateTask2 {
+    width: 90%;
+    height: 100%;
+
+    margin: auto;
+}
+
+.VR_Container_CreateTask::-webkit-scrollbar {
+    width: 7px;
+
+    background: #fff;
+}
+
+.VR_Container_CreateTask::-webkit-scrollbar-thumb {
+    background-color: gainsboro;
+
+    border-radius: 20px;
+}
+
+
+.VR_BtnContainer_CreaetTask {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-bottom: 30px;
+}
+
+
+.VR_BtnContainer_CreaetTask button {
+    color: #007aff;
+    outline: #007aff;
+    border: 1px solid #007aff;
+
+    --bs-btn-padding-x: 1.25rem
+}
+
+.VR_changeTask_CreateTask {
+    border: 1px solid black;
+    
+    margin-bottom: 30px;
+}
+
+
+.form-container {
+    margin-bottom: 30px;
+}
+
+.file-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #eee;
+    padding: 0; 
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+    height: 40px;
+    background-color: transparent;
+}
+
+.file-input-container input[type="file"] {
+    display: none;
+}
+
+.file-input-label {
+    display: inline-block;
+    width: auto;
+    background-color: white;
+    color: #007aff;
+    cursor: pointer;
+    border-radius: 0; 
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 1px solid #007aff;
+    border-radius: 5px;
+    height: 101%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-input-label:hover {
+    background-color: #007aff;
+    color: white;
+    border: 1px solid #007aff;
+}
+
+.file-name {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #555;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 80%;
+}
+
+.VR_FileLabelTitle_CreateTask {
+    color: #484d54;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}

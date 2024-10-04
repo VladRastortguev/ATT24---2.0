@@ -1,0 +1,94 @@
+.VR_LoginBlock_Registration {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 369px;
+    height: 514px;
+
+    background: #fff;
+
+    border: 1px solid #484d54;
+
+    border-radius: 10px;
+
+    z-index: 100;
+}
+
+.VR_LoginBlock_Registration_dark {
+    background: #181D27;
+}
+
+.VR_CardLoginItem_Registration {
+    width: 87%;
+    height: 90%;
+}
+
+.VR_CardLoginItem_Registration h4 {
+    font-family: 'Poppins', sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 800;
+    /* font-style: normal; */
+
+    letter-spacing: 0.03rem;
+
+    font-size: 20px;
+    color: #484d54;
+
+    text-align: center;
+
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.VR_NameBlock_Registration,
+    .VR_EmailBlock_Registration,
+    .VR_PasswordBlock_Registration,
+    .VR_ConfirmPasswordBlock_Registration {
+        display: flex;
+
+        flex-direction: column;
+
+        padding: 0 0 25px 0;
+
+        position: relative;
+}
+
+.VR_NameBlock_Registration label,
+    .VR_EmailBlock_Registration label,
+    .VR_PasswordBlock_Registration label,
+    .VR_ConfirmPasswordBlock_Registration label {
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+
+        margin-bottom: 6px;
+        color: #999;
+}
+
+.VR_NameBlock_Registration input,
+    .VR_EmailBlock_Registration input,
+    .VR_PasswordBlock_Registration input,
+    .VR_ConfirmPasswordBlock_Registration input {
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+
+        color: #999;
+        background: #fff;
+
+        border: 1px solid #eee ;
+        border-radius: 5px;
+
+        padding: 8px 15px;
+}
+
+.VR_NameBlock_Registration input:focus,
+    .VR_EmailBlock_Registration input:focus,
+    .VR_PasswordBlock_Registration input:focus,
+    .VR_ConfirmPasswordBlock_Registration input:focus {
+    outline: 2px solid #007aff;
+}

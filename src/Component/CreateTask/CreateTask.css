@@ -1,0 +1,222 @@
+.VR_Container_CreateTask {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 42.5vw;
+    height: 85vh;
+
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.40);
+
+    /* padding-right: 8px; */
+
+    margin: 25px 0 0 50px;
+
+    overflow: auto;
+}
+
+.VR_Container_CreateTask::-webkit-scrollbar {
+    width: 7px;
+    background: #fff;
+}
+
+.VR_Container_CreateTask::-webkit-scrollbar-thumb {
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+
+.VR_SmallContainer_CreateTask {
+    width: 90%;
+    height: 100%;
+
+    margin: auto;
+}
+
+.VR_CreateTitle_CreateTask {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    
+    margin: 15px 0;
+
+    color: #484d54;
+
+    /* letter-spacing: 0.3rem; */
+    line-height: 1.2;
+}
+
+.VR_SelectBlock_CreateTask,
+    .VR_SelectBlockTaskType_CreateTask {
+        position: relative;
+    
+        width: 100%;
+
+        border: 1px solid #eee;
+        border-radius: 5px;
+}
+
+.VR_HeaderSelect_CreateTask,
+.VR_HeaderTaskType_CreateTask {
+    height: 40px;
+    
+    padding: 0 15px 0 15px;
+    
+    position: relative;
+
+    text-align: left;
+}
+
+.VR_SelectTaskType_CreateTask h5,
+    .VR_SelectTaskType1_CreateTask h5,
+    .VR_InputTask_CreateTask h5,
+    .VR_InputTask_CreateTask h5 {
+        font-size: 15px;
+}
+
+.VR_SelectTaskType_CreateTask {
+    margin-bottom: 30px;
+}
+
+.VR_InputTask_CreateTask {
+    padding-bottom: 30px;
+}
+
+.VR_HeaderSelect_CreateTask:hover,
+.VR_HeaderTaskType_CreateTask:hover {
+    cursor: pointer;
+}
+
+.VR_FilterSelect_CreateTask,
+.VR_FilterTaskType_CreateTask {
+    height: 100%;
+
+    display: flex;
+    
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+.VR_FilterTaskType_CreateTask p, 
+.VR_FilterSelect_CreateTask p {
+    margin: 0;
+}
+
+.VR_Filters_CreateTask {
+    position: absolute;
+    
+    top: 3rem;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+
+    background-color: #fff;
+    
+    border: 1px solid #eee;
+    border-radius: 10px;
+
+    z-index: 10;
+
+    width: 100%;
+
+    overflow: hidden; 
+}
+
+.VR_ShowFilters_CreateTask,
+    .VR_UnShowFilters_CreateTask
+    .VR_ShowTaskType_CreateTask,
+    .VR_UnShowTaskType_CreateTask {
+        transition: opacity 0.15s ease-in-out, height 0.15s ease-in-out;
+}
+
+.VR_ShowFilters_CreateTask,
+    .VR_ShowTaskType_CreateTask {
+        opacity: 1;
+        height: auto;
+}
+
+.VR_ShowFilters_CreateTask div,
+    .VR_ShowTaskType_CreateTask div {
+        opacity: 1;
+        height: auto;
+    }
+
+.VR_UnShowFilters_CreateTask,
+    .VR_UnShowTaskType_CreateTask {
+        opacity: 0;
+        height: -1px;
+}
+
+.VR_UnShowFilters_CreateTask div,
+    .VR_UnShowTaskType_CreateTask div {
+        opacity: 0;
+        height: 0;
+        padding: 0;
+}
+
+
+
+.VR_Filter_CreateTask,
+    .VR_FilterTaskType_CreateTask {
+        padding: 0.5rem;
+
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Nunito', sans-serif;
+
+    /* transition: 1s; */
+}
+
+.VR_Filter_CreateTask:hover {
+    cursor: pointer;
+
+    background-color: #faf7f7;
+
+    color: #5f6af5;
+}
+
+.VR_SelectBlockHalf_CreateTask {
+    display: flex;
+    justify-content: space-between;
+}
+
+.VR_SelectBlockHalf_CreateTask .VR_SelectTaskType_CreateTask {
+    width: 47%;
+}
+
+.VR_InputTask_CreateTask input,
+    .VR_InputTask_CreateTask textarea {
+        position: relative;
+    
+        width: 100%;
+        padding: 10px 0 10px 10px;
+
+        border: 1px solid #eee;
+        border-radius: 5px; 
+}
+
+.VR_InputTask_CreateTask input:focus,
+.VR_InputTask_CreateTask textarea:focus {
+        outline: #898989 1px solid;
+}
+
+.VR_BtnCreate_CreaetTask {
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding-bottom: 30px;
+}
+
+.VR_BtnCreate_CreaetTask button {
+    color: #007aff;
+    outline: #007aff;
+    border: 1px solid #007aff;
+
+    --bs-btn-padding-x: 1.25rem
+}
+

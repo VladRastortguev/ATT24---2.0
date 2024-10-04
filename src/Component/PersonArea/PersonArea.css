@@ -1,0 +1,125 @@
+.VR_ContainerOnLoad_CreateTask {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.VR_PreContainer_PersonArea {
+    width: 90%;
+    height: 100%;
+
+    margin: auto;
+}
+
+.VR_TitleBlock_PersonArea h3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+    margin: 15px 0;
+
+    color: #484d54;
+
+    line-height: 1.2;
+}
+
+.VR_PreContainer_PersonArea h5 {
+    font-size: 15px;
+
+    margin: 5px 0 5px 0;
+    padding: 0;
+
+    color: #484d54;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.VR_PreContainer_PersonArea input {
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    
+    color: #484d54;
+}
+
+.VR_fullName_PersonArea input {
+    font-size: 13px;
+    width: 100%;
+}
+
+.VR_fullName_PersonArea {
+    margin-bottom: 5px;
+}
+
+.VR_fullNameConstructor_PersonArea,
+.VR_feedbackContainer_PersonArea,
+.VR_jobLifeContainer_PersonArea {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.VR_fullNameConstructor_PersonArea input {
+    font-size: 13px;
+}
+
+.VR_userInfoBlock_PersonArea,
+.VR_feedBackBlock_PersonArea,
+.VR_jobLifeBlock_PersonArea {
+    position: relative;
+
+    width: 100%;
+
+    border: 1px solid #484d54;
+    border-radius: 5px;
+
+    padding: 15px 0 30px 0;
+    margin-bottom: 40px;
+}
+
+.VR_userInfoBlock_PersonArea h4,
+.VR_feedBackBlock_PersonArea h4,
+.VR_jobLifeBlock_PersonArea h4 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 20px;
+
+    color: #484d54;
+
+    background-color: white;
+
+    position: absolute;
+
+    top: 0;
+    right: 5%;
+
+    transform: translateY(-60%);
+} 
+
+.VR_dataContainer_PersonArea,
+.VR_feedbackContainer_PersonArea,
+.VR_jobLifeContainer_PersonArea {
+    width: 95%;
+    height: 95%;
+
+    margin: auto;
+}
+
+.VR_feedbackContainer_PersonArea div {
+    width: 50%;
+    
+    /* margin-right: 20px; */
+}
+
+.VR_feedbackContainer_PersonArea input {
+    width: 90%;
+}
+
+.VR_jobLifeContainer_PersonArea div {
+    width: 33%;
+}
+
+.VR_jobLifeContainer_PersonArea input {
+    width: 90%;
+}

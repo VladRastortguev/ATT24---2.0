@@ -1,0 +1,29 @@
+.VR_PreSpinnerBlock {
+    position: fixed;
+    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.VR_Spinner {
+    font-size: 100px;
+
+    color: #007aff;
+
+    animation: rotateSpinners 1.5s linear infinite;
+}
+
+@keyframes rotateSpinners{
+    from {
+        transform: rotate(360deg);
+    } to {
+        transform: rotate(0deg);
+    }
+}

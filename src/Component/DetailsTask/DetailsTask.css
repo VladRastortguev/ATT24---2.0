@@ -1,0 +1,314 @@
+.VR_DetailsContainer_DetailsTask {
+    transition: 1s;
+}
+
+.VR_rightDetailsBlock_DetailsTask {
+    position: fixed;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: #000;
+
+    opacity: 50%;
+
+    transition: 1s;
+}
+
+.VR_contentContainer_DetailsTask {
+    position: fixed;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 20%;
+
+    background-color: #fff;
+
+    opacity: 100%;
+
+    z-index: 99999;
+
+    transition: 1s;
+}
+
+.VR_contentPreContainer_DetailsTask {
+    width: 100%;
+    height: 100%;
+
+    /* background: red; */
+
+    display: flex;
+}
+
+.VR_closeContainer_DetailsTask {
+    height: 100%;
+
+    /* background: blue; */
+}
+
+.VR_closeContainer_DetailsTask svg {
+    font-size: 40px;
+
+    rotate: 45deg;
+}
+
+.VR_closeContainer_DetailsTask svg:hover {
+    cursor: pointer;
+}
+
+.VR_contentBlock_DetailsTask {
+    width: 45%;
+    height: 100%;
+
+    margin: auto;
+    padding: 20px;
+
+    /* background: #000; */
+}
+
+.VR_contentBlock_DetailsTask h5 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    color: #484d54;
+
+    margin-bottom: 3px;
+    padding: 0;
+}
+
+.VR_contentBlock_DetailsTask input {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    color: #484d54;
+
+    border-radius: 5px;
+
+    border: 1px solid #484d54;
+
+    width: 100%;
+}
+
+.VR_contentBlock_DetailsTask div {
+    margin-bottom: 20px;
+}
+
+.VR_taskComment_DetailsTask {
+    width: 45%;
+    height: 100%;
+
+    margin: auto;
+
+    padding: 20px;
+
+    /* background-color: aqua; */
+}
+
+.VR_detialsTitleBlock_DetailsTask {
+    display: flex;
+
+    justify-content: space-between;
+
+    border-bottom: 1px solid #eee;
+
+    padding-bottom: 10px;
+}
+
+.VR_detialsTitleBlock_DetailsTask svg {
+    font-size: 36px;
+}
+
+.VR_detialsTitleBlock_DetailsTask h3 {
+    color: #484d54;
+    font-family: 'Poppins', sans-serif;
+}
+
+.VR_CommentTitleBlock_DetailsTask {
+    display: flex;
+    
+    justify-content: space-between;
+
+    border-bottom: 1px solid #eee;
+
+    padding-bottom: 10px;
+}
+
+.VR_CommentTitleBlock_DetailsTask h3 {
+    color: #484d54;
+    font-family: 'Poppins', sans-serif;
+}
+
+.VR_CommentContentBlock_DetailsTask {
+    display: flex;
+
+    flex-direction: column;
+    
+    height: 65%;
+
+    /* background: aqua; */
+
+    margin: 20px 0;
+
+    border: 1px solid #eee;
+    border-radius: 5px;
+
+    overflow: scroll;
+}
+
+.VR_CommentContentBlock_DetailsTask:hover {
+    border: 1px solid #c9c9c9;
+
+    overflow-y: scroll;
+}
+
+.VR_CommentContentBlock_DetailsTask::-webkit-scrollbar {
+    width: 7px;
+    background: #fff;
+}
+
+.VR_CommentContentBlock_DetailsTask::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.VR_CommentContentBlock_DetailsTask:hover::-webkit-scrollbar-thumb {
+    background-color: gainsboro;
+}
+
+.VR_CreateCommentBlock_DetailsTask {
+    display: flex;
+
+    /* flex-direction: column; */
+
+    /* align-items: center; */
+    /* justify-content: center; */
+
+    height: 20%;
+
+    /* background: red; */
+
+    margin: 20px 0;
+
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.VR_oneCommentItem_DetailsTask {
+    border: 1px solid #eee;
+    border-radius: 20px;
+
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.40);
+
+    width: 85%;
+
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.VR_oneCommentItem_DetailsTask p {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.VR_oneCommentItem_DetailsTask div:first-child {
+    margin-bottom: 5px;
+}
+
+.VR_leftDate_DetailsTask {
+    text-align: start;
+}
+
+.VR_rightUser_DetailsTask,
+.VR_rightText_DetailsTask,
+.VR_rightDate_DetailsTask {
+    text-align: end;
+}
+
+.VR_User_DetailsTask p {
+    font-weight: 600;
+}
+
+.VR_commentText_DetailsTask p {
+    font-size: 16px;
+}
+
+.VR_user_DetailsTask {
+    font-size: 13px;
+}
+
+.VR_rightOneCommentItem_DetailsTask {
+    margin-right: 8px;
+}
+
+.VR_leftOneCommentItem_DetailsTasl {
+    margin-left: 8px;
+}
+
+.VR_CommentArea_DetailsTask {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    height: 100%;
+}
+
+.VR_CommentArea_DetailsTask textarea {
+    resize: none;
+
+    width: 95%;
+    min-height: 80%;
+
+    border: 1px solid gainsboro;
+    outline: none;
+
+    border-radius: 5px;
+
+    padding-left: 8px;
+
+    font-family: 'Poppins', sans-serif;
+    color: #484d54;
+}
+
+.VR_CommentArea_DetailsTask textarea:focus {
+    outline: 1px solid #c9c9c9;
+}
+
+.VR_SetCommentBtn_DetailsTask {
+    height: 77%;
+    width: auto;
+
+    margin: auto;
+
+    display: flex;
+
+    align-items: end;
+    justify-content: center;
+}
+
+.VR_SetCommentBtn_DetailsTask button{
+    color: #007aff;
+    outline: #007aff;
+    border: 1px solid #007aff;
+
+    --bs-btn-padding-x: 0.5rem;
+
+    font-family: 'Poppins', sans-serif;
+
+    /* font-size: 10px; */
+
+    margin-right: 5px;
+    margin-left: -5px;
+
+    /* width: 80%; */
+
+    /* margin-bottom: 10px; */
+}
