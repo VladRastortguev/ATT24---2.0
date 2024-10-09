@@ -63,6 +63,18 @@
     font-size: 13px;
 }
 
+.VR_userName_PersonArea,
+.VR_userSecondName_PersonArea,
+.VR_surname_PersonArea {
+    max-width: 30%;
+}
+
+.VR_userName_PersonArea input,
+.VR_userSecondName_PersonArea input,
+.VR_surname_PersonArea input {
+    max-width: 100%;
+}
+
 .VR_userInfoBlock_PersonArea,
 .VR_feedBackBlock_PersonArea,
 .VR_jobLifeBlock_PersonArea {
