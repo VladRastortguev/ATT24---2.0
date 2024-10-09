@@ -135,3 +135,41 @@
 .VR_jobLifeContainer_PersonArea input {
     width: 90%;
 }
+
+.VR_fullName_PersonArea input,
+.VR_userName_PersonArea input,
+.VR_userSecondName_PersonArea input,
+.VR_surname_PersonArea input,
+.VR_emailBlock_PersonArea input,
+.VR_phoneBlock_PersonArea input,
+.VR_userOrganizationBlock_PersonArea input,
+.VR_userSubdivisionBlock_PersonArea input,
+.VR_userJobTitleBlock_PersonArea input {
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+.VR_fullName_PersonArea input:hover,
+.VR_userName_PersonArea input:hover,
+.VR_userSecondName_PersonArea input:hover,
+.VR_surname_PersonArea input:hover,
+.VR_emailBlock_PersonArea input:hover,
+.VR_phoneBlock_PersonArea input:hover,
+.VR_userOrganizationBlock_PersonArea input:hover,
+.VR_userSubdivisionBlock_PersonArea input:hover,
+.VR_userJobTitleBlock_PersonArea input:hover {
+    border: 1px solid #b8b6b6;
+}
+
+.VR_fullName_PersonArea input:focus,
+.VR_userName_PersonArea input:focus,
+.VR_userSecondName_PersonArea input:focus,
+.VR_surname_PersonArea input:focus,
+.VR_emailBlock_PersonArea input:focus,
+.VR_phoneBlock_PersonArea input:focus,
+.VR_userOrganizationBlock_PersonArea input:focus,
+.VR_userSubdivisionBlock_PersonArea input:focus,
+.VR_userJobTitleBlock_PersonArea input:focus {
+    border: 1px solid #007aff;
+    outline: 1px solid #007aff;
+}
