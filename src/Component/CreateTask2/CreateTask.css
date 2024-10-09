@@ -1,4 +1,5 @@
-.VR_Container_CreateTask {
+.VR_Container_CreateTask,
+.VR_OnLoadContainer_CreateTask {
     display: flex;
 
     flex-direction: column;
@@ -15,6 +16,13 @@
     overflow: auto;
 
     position: relative;
+}
+
+.VR_OnLoad_CreateTask {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .VR_SmallContainer_CreateTask2 {
