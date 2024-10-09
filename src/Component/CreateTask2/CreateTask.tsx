@@ -5,6 +5,8 @@ import '../CreateTask2/CreateTask.css'
 import { Context } from '../../index.tsx';
 import TaskService from '../../services/TaskService.ts';
 
+import FlipCameraAndroidIcon from '@mui/icons-material/FlipCameraAndroid';
+
 import Button from 'react-bootstrap/esm/Button';
 import { tumblerInterface } from '../Tumbler/interface/Tumbler-Interace.ts';
 import Access from './PodComponent/Access/Access.tsx';
@@ -168,13 +170,14 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
             }
         ]        
 
-        // store.setLoading(true)
+        store.setLoading(true)
         try {
-            const res = await TaskService.setNewTask(obj, 'access')
+            const res = await TaskService.setNewTask(obj, 'access')                        
+            alert('Задача успешно создана!')
         } catch(e) {
             alert(e)
         } finally {
-            // store.setLoading(false)
+            store.setLoading(false)
         }
 
         setTaskName('')
@@ -238,14 +241,15 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
             }
         ]
 
-        console.log(obj);
-        
-
+        store.setLoading(true)
         try {
             const res = await TaskService.setNewTask(obj, 'tehsupport')
+            alert('Задача успешно создана!')
         } catch(e) {
             alert(e)
-        }        
+        } finally {
+            store.setLoading(false)
+        }
 
         changeAccessTaskName    ('')
         changeAccessTaskService ('--')
@@ -265,8 +269,6 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
         setTaskUrgency          ('')
         setUrgencyDescr         ('')
         setDetailsTask          ('')
-    
-        alert('Задача успешно создана!')
     }
 
     async function set1cTask() {
@@ -294,10 +296,14 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
             }
         ]
 
+        store.setLoading(true)
         try {
             const res = await TaskService.setNewTask(obj, '1c')
+            alert('Задача успешно создана!')
         } catch(e) {
             console.log(e);            
+        } finally {
+            store.setLoading(false)
         }
 
         setTaskName('')
@@ -310,8 +316,6 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
         setDetailsTask('')
         setBase64Str('')
         setScreenShotFile(null)
-
-        alert('Задача успешно создана!')
     }
 
     const changeAccessTaskName = (newState: string) => {
@@ -520,6 +524,16 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
 
         detailsTask: detailsTask,
         changeDetailsTask: changeDetailsTask
+    }
+
+    if (store.isLoading) {
+        return (
+            <div className='VR_OnLoadContainer_CreateTask VR_OnLoad_CreateTask'>
+                {/* <div className='VR_PreSpinnerBlock'> */}
+                    <FlipCameraAndroidIcon className='VR_Spinner'/>
+                {/* </div>     */}
+            </div>
+        )
     }
 
     return (
