@@ -170,14 +170,14 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
             }
         ]        
 
-        store.setLoading(true)
+        store.setTaskLoading(true)
         try {
             const res = await TaskService.setNewTask(obj, 'access')                        
             alert('Задача успешно создана!')
         } catch(e) {
             alert(e)
         } finally {
-            store.setLoading(false)
+            store.setTaskLoading(false)
         }
 
         setTaskName('')
@@ -241,14 +241,14 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
             }
         ]
 
-        store.setLoading(true)
+        store.setTaskLoading(true)
         try {
             const res = await TaskService.setNewTask(obj, 'tehsupport')
             alert('Задача успешно создана!')
         } catch(e) {
             alert(e)
         } finally {
-            store.setLoading(false)
+            store.setTaskLoading(false)
         }
 
         changeAccessTaskName    ('')
@@ -296,14 +296,14 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
             }
         ]
 
-        store.setLoading(true)
+        store.setTaskLoading(true)
         try {
             const res = await TaskService.setNewTask(obj, '1c')
             alert('Задача успешно создана!')
         } catch(e) {
             console.log(e);            
         } finally {
-            store.setLoading(false)
+            store.setTaskLoading(false)
         }
 
         setTaskName('')
@@ -526,7 +526,7 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
         changeDetailsTask: changeDetailsTask
     }
 
-    if (store.isLoading) {
+    if (store.isTaskLoading) {
         return (
             <div className='VR_OnLoadContainer_CreateTask VR_OnLoad_CreateTask'>
                 {/* <div className='VR_PreSpinnerBlock'> */}
