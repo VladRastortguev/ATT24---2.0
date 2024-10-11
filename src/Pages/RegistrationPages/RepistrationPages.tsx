@@ -27,8 +27,8 @@ const RepistrationPages:FC = () => {
 
     const [showSettingBlock, setShowSettingBlock] = useState(false)
 
-    const [checkEnglishLang, setEnglishLang] = useState(true)
-    const [checkRussianLang, setRussianLang] = useState(false)
+    const [checkEnglishLang, setEnglishLang] = useState(false)
+    const [checkRussianLang, setRussianLang] = useState(true)
 
     const [darkTheme, setDarkTheme] = useState(false)
 
