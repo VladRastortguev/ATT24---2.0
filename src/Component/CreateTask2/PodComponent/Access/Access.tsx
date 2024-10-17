@@ -89,6 +89,12 @@ const Access:FC<AccessInterface> = ({ AccessObj }) => {
                         }}>Установка 1с</div>
 
                         <div className='VR_Filter_CreateTask' onClick={() => {
+                            AccessObj.changeAccessTaskService?.('Настройка удаленного доступа (VPN)')
+                            setSelectTaskServiceA('Настройка удаленного доступа (VPN)')
+                            setDropTaskService(!dropTaskService)
+                        }}>Настройка удаленного доступа (VPN)</div>
+
+                        <div className='VR_Filter_CreateTask' onClick={() => {
                             AccessObj.changeAccessTaskService?.('Создание учетной записи ЗУП')
                             setSelectTaskServiceA('Создание учетной записи ЗУП')
                             setDropTaskService(!dropTaskService)

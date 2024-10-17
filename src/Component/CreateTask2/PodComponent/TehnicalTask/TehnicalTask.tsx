@@ -232,13 +232,7 @@ const TehnicalTask:FC<TehnicalInterface> = ({ TeinicalObj }) => {
                             TeinicalObj.changeTaskService?.('Настройка камер на рабочий компьютер')
                             setSelectTaskServiceT('Настройка камер на рабочий компьютер')
                             setDropTaskService(!dropTaskService)
-                        }}>Настройка камер на рабочий компьютер</div>
-
-                        <div className='VR_Filter_CreateTask' onClick={() => {
-                            TeinicalObj.changeTaskService?.('Настройка удаленного доступа (VPN)')
-                            setSelectTaskServiceT('Настройка удаленного доступа (VPN)')
-                            setDropTaskService(!dropTaskService)
-                        }}>Настройка удаленного доступа (VPN)</div>
+                        }}>Настройка камер на рабочий компьютер</div>                        
 
                         <div className='VR_Filter_CreateTask' onClick={() => {
                             TeinicalObj.changeTaskService?.('Установка операционной системы')

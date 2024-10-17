@@ -12,7 +12,7 @@ import UserService from "../services/UserService.ts";
 
 export default class Store {
     user = {} as IUser;
-    itilUser = {} as oneItilUser;
+    // itilUser = {} as oneItilUser;
     isAuth = false;
     isLoading = false;
     aa6Success = false;
@@ -30,9 +30,9 @@ export default class Store {
         this.user = user;
     }
     
-    setItilUser(user: oneItilUser) {
-        this.itilUser = user
-    }
+    // setItilUser(user: oneItilUser) {
+    //     this.itilUser = user
+    // }
 
     setLoading(bool: boolean) {
         this.isLoading = bool;
