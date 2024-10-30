@@ -66,7 +66,7 @@ const DetailsTask:FC<detailsInterface> = ({ detailsObj }) => {
                 setUserName(item.fullName)
             }) 
         } catch(e) {
-            alert(e)
+            console.log(e)
         } finally {
             store.setLoading(false)
         }
@@ -80,7 +80,7 @@ const DetailsTask:FC<detailsInterface> = ({ detailsObj }) => {
 
             setCommentArr(res.data)
         } catch(e) {
-            alert(e)
+            console.log(e)
         } finally {
             store.setLoading(false)
         }
@@ -167,7 +167,7 @@ const DetailsTask:FC<detailsInterface> = ({ detailsObj }) => {
             }, 500)
 
         } catch(e) {
-            alert(e)
+            console.log(e)
         } finally {
             store.setLoading(false)
         }

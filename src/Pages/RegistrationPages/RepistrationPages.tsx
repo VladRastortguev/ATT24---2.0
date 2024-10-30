@@ -72,7 +72,7 @@ const RepistrationPages:FC = () => {
             })
 
         } catch (e) {
-            alert(e);            
+            console.log(e);            
         } finally {
             store.setLoading(false)
         }
@@ -96,7 +96,7 @@ const RepistrationPages:FC = () => {
             return
 
         } catch (e) {
-            alert(e);
+            console.log(e);
         } finally {
             store.setLoading(false)
         }
@@ -129,7 +129,7 @@ const RepistrationPages:FC = () => {
                 }                  
             }
         } catch (e) {
-            alert(e)
+            console.log(e)
         } finally {
             store.setLoading(false)
         }              

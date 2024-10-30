@@ -41,7 +41,7 @@ const LastTasks:FC<lastTaskInterface> = ({ lastTaskInterfaceObj }) => {
 
             setLastTask(res.data)
         } catch(e) {
-            alert(e)
+            console.log(e)
         } finally {
             store.setLoading(false)
         }

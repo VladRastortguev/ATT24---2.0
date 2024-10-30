@@ -91,7 +91,7 @@ const MyTasks:FC<lastTaskInterface> = ({ lastTaskInterfaceObj }) => {
 
             setAllTask(res.data)
         } catch (e) {
-            alert(e)
+            console.log(e)
         } finally {
             store.setLoading(false)
         }
