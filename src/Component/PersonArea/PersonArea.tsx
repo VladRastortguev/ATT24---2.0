@@ -51,7 +51,7 @@ const PersonArea:FC = () => {
                 setUserJobTitle(item.jobTitle)
             })
         } catch(e) {
-            alert(e)
+            console.log(e)
         } finally {
             store.setLoading(false)
         }

@@ -72,7 +72,7 @@ const Loginpage:FC = () => {
             })
 
         } catch (e) {
-            alert(e);            
+            console.log(e);            
         } finally {
             store.setLoading(false)
         }
@@ -94,7 +94,7 @@ const Loginpage:FC = () => {
             return
 
         } catch (e) {
-            alert(e);
+            console.log(e);
         } finally {
             store.setLoading(false)
         }
@@ -137,7 +137,7 @@ const Loginpage:FC = () => {
 
             console.log(res);            
         } catch(e) {
-            alert(e)
+            console.log(e)
         } finally {
             store.setLoading(false)
         }

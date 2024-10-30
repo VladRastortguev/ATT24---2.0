@@ -175,7 +175,7 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
             const res = await TaskService.setNewTask(obj, 'access')                        
             alert('Задача успешно создана!')
         } catch(e) {
-            alert(e)
+            console.log(e)
         } finally {
             store.setTaskLoading(false)
         }
@@ -246,7 +246,7 @@ const CreateTask:FC<tumblerInterface> = ({taskViewInterface}) => {
             const res = await TaskService.setNewTask(obj, 'tehsupport')
             alert('Задача успешно создана!')
         } catch(e) {
-            alert(e)
+            console.log(e)
         } finally {
             store.setTaskLoading(false)
         }
