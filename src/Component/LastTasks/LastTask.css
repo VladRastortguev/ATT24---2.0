@@ -9,9 +9,25 @@
 
     margin: 25px 0 0 50px;
 
+    overflow-y: scroll;
+
     /* position: relative; */
 
     /* transition: 1s; */
+}
+
+.VR_Container_LastTask::-webkit-scrollbar {
+    background-color: #fff;
+    width: 7px;
+}
+
+.VR_Container_LastTask::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.VR_Container_LastTask:hover::-webkit-scrollbar-thumb {
+    background-color: gainsboro;
 }
 
 .VR_TitleBlock_LastTask {
