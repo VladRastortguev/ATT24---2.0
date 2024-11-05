@@ -92,6 +92,19 @@ const PersonArea:FC = () => {
                             </div>
 
                             <div className='VR_fullNameConstructor_PersonArea'>
+                                
+                                <div className='VR_userSecondName_PersonArea'>
+                                    <h5>Фамилия:</h5>
+                                    <input 
+                                        type="text" 
+                                        placeholder='Ваша фамилия...'
+                                        value={userSecondName}
+                                        onChange={(e) => {
+                                            setUserSecondName(e.target.value)
+                                            setFullName(e.target.value + ' ' + userName + ' ' + userSurname)
+                                        }}/>
+                                </div>                                
+                                
                                 <div className='VR_userName_PersonArea'>
                                     <h5>Имя:</h5>
                                     <input 
@@ -104,20 +117,9 @@ const PersonArea:FC = () => {
                                         }}/>
                                 </div>
 
-                                <div className='VR_userSecondName_PersonArea'>
-                                    <h5>Фамилия:</h5>
-                                    <input 
-                                        type="text" 
-                                        placeholder='Ваша фамилия...'
-                                        value={userSecondName}
-                                        onChange={(e) => {
-                                            setUserSecondName(e.target.value)
-                                            setFullName(e.target.value + ' ' + userName + ' ' + userSurname)
-                                        }}/>
-                                </div>
 
                                 <div className='VR_surname_PersonArea'>
-                                    <h5>Отчетсво:</h5>
+                                    <h5>Отчество:</h5>
                                     <input 
                                         type="text" 
                                         placeholder='Ваше отчетсво...'
