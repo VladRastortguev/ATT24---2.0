@@ -145,8 +145,20 @@
 .VR_userOrganizationBlock_PersonArea input,
 .VR_userSubdivisionBlock_PersonArea input,
 .VR_userJobTitleBlock_PersonArea input {
+    /* border: 1px solid #eee;
+    border-radius: 3px; */
+
+    position: relative;
+
+    /* width: 100%; */
+    padding: 5px 0 5px 5px;    
+
     border: 1px solid #eee;
-    border-radius: 3px;
+    border-radius: 5px;
+
+    font-family: 'Poppins', sans-serif;
+
+    color: #484d54;
 }
 
 .VR_fullName_PersonArea input:hover,
