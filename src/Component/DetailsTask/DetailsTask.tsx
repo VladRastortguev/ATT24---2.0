@@ -18,6 +18,7 @@ import { oneComment } from './Interface/OneComment-interface.ts';
 import TaskService from '../../services/TaskService.ts';
 
 import Button from 'react-bootstrap/esm/Button';
+import TaskGrade from '../PopUp/TaskGrade/TaskGrade.tsx';
 
 
 const DetailsTask:FC<detailsInterface> = ({ detailsObj }) => {
@@ -133,11 +134,26 @@ const DetailsTask:FC<detailsInterface> = ({ detailsObj }) => {
 
         let fullString = ''
 
-        for (let i in bodyArr) {
+        // for (let i in bodyArr) {
+        //     // if (bodyArr[i] !== '0') {
+        //     //     fullString = fullString + bodyArr[i]
+        //     // }    
+        
+        //     if (bodyArr[i] !== '0') {
+        //         fullString = bodyNumber.substring(Number(i), 24)
+                
+        //         return
+        //     }
+        // }
+
+        for (let i = 0; i < bodyArr.length; i++) {
             if (bodyArr[i] !== '0') {
-                fullString = fullString + bodyArr[i]
-            }    
+                fullString = bodyNumber.substring(i, 24)
+
+                break
+            }
         }
+
         
         number = prefics + '-' + fullString
 
@@ -177,6 +193,8 @@ const DetailsTask:FC<detailsInterface> = ({ detailsObj }) => {
 
     return (
         <div className='VR_DetailsContainer_DetailsTask'>
+            
+
             <div className='VR_rightDetailsBlock_DetailsTask'></div>
         
             <div className='VR_contentContainer_DetailsTask'>                
